@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(139, 139, 139);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td><span class="Text-Block">Matricula:</span><input type="text" id="txtMatricula" class="Text-Box" name="txtMatricula"></td>
+            <td><button id="Exibir" onclick="exibir()">Exibir</button></td>
+        </tr>
+        <tr>
+            <td><span class="Text-Block">Nome:</span> <input type="text" id="txtNome" class="Text-Box" name="txtNome"></td>
+            <td><button id="Atualizar" onclick="">Atualizar</button></td>
+        </tr>
+        <tr>
+            <td><span class="Text-Block">Email:</span> <input type="text" id="txtEmail" class="Text-Box" name="txtEmail"></td>
+            <td><button id="Excluir" onclick="">Excluir </button></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><button id="Voltar" onclick="">Voltar</button></td>
+        </tr>
+    </table>
+</body>
+<style>
+    tr{
+        height: 45px;
+    }
+    td{
+        width: 250px;
+    }
+    .Text-Block{
+        height: 35px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 14;
+        color: SlateGray
+    }
+    .Text-Box{
+        border: solid 1px;
+        height: 30px;
+        width: 150px;
+        font-size: 14;
+        color: slategrey;
+    }
+    button{
+        color: slategrey;
+        border-color: Azure;
+        cursor: pointer;
+    }
+</style>
+<script>
+    const aluno = {
+    matricula: 2022332987,
+    nome: 'Vinícius NUnes',
+    email: 'vnb2@aluno.ifal.edu.br'
+}
+
+function exibir() {
+    document.getElementById('txtMatricula').value = aluno.matricula
+    document.getElementById('txtNome').value = aluno.nome
+    document.getElementById('txtEmail').value = aluno.email
+}
+</script>
+</html>
