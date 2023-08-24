@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_atividade6_Q3.css">
+    
+</head>
+<body>
+    <form action="">
+    <p id="titulo"> Form </p>
+    <div class="container"> 
+        <tr>
+        <table>
+        <td>*Name:</td>
+        <td><input type="text" pattern="[^0-9]*" placeholder="Enter your name" required ></td>
+        </tr>
+        <tr>
+     <td>*Emal:</td>
+     <td><input type="email" placeholder="Enter your Email" required></td>
+     </tr>
+     <tr>
+     <td>*Age:</td>
+     <td><input type="number" placeholder="Age" min="18" max="110" required></td>
+    </tr>
+    
+    <tr>
+        <td >which opition:</td>
+        <td><select id="caixa_de_escolha">
+            <option value="">Student</option>
+            <option value="">Teacher</option>
+            <option value="">trainee</option>
+        </td>
+    </select>
+</tr>
+<tr>
+
+
+    <td>*selection is that you would 
+        <br>
+        recommend form to a friend?
+    </td>
+    <td><input type="radio" name="escolhas">Definitely
+        <br>
+        <input type="radio" name="escolhas">Maybe
+        <br>
+        <input type="radio" name="escolhas">Not sure
+    </td>
+    <tr>
+        <td >What do you like most in FCC:</td>
+        <td><select id="caixa_de_escolha">
+            <option value="" label="select an option">Student</option>
+            <option value="">Teacher</option>
+            <option value="">trainee</option>
+        </td>
+    </select>
+    <tr>
+        
+    <td>Things that should be improved
+        <br> in the future 
+        <br>
+        (Check all thet aplly):
+    </td>
+    <td><input type="checkbox" required>Definitely
+        <br>
+        <input type="checkbox" required>Maybe
+        <br>
+        <input type="checkbox" required>Not sure
+    </td>
+</tr>
+</div>
+</table>
+<input id="concluir" type="submit" value="Complete">
+</form>
+</body>
+</html>
