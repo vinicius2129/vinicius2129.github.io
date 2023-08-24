@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(219, 219, 219);
+    
+}
+.container{
+position: absolute;
+top: 16%;
+left: 10%;
+display: flex;
+align-items: center;
+flex-direction: column;
+background-color: rgb(184, 109, 255);
+width: 80%;
+height: 80vh;
+border-radius: 20px;
+font-size: 95%;
+font-family: Arial, sans-serif;
+margin: 0%;
+text-align: center;
+font-weight: bold ; 
+color: rgb(255, 255, 255);
+}
+#titulo{
+    color: rgb(37, 37, 37);
+    font-weight: bold; 
+    font-size: 280%;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+input[type="text"] ,input[type="number"] ,input[type="email"] {
+    width: 20vw;
+    height: 2.5vh;
+    border-radius: 20px;
+    border: none;
+    font-size: 83%;
+    
+    
+}
+#caixa_de_escolha{
+    width: 20vw;
+    height: 2.5vh;
+    border-radius: 20px;
+    border: none;
+    font-size: 83%;
+    position: relative;
+    align-items: center;
+    color: rgb(49, 49, 49);
+    
+}
+table{
+    border-spacing: 3vw;
+
+}
+input[type="ratio"]{
+    width: 20vw;
+    height: 2.5vh;
+    
+    
+}
+#concluir{
+    width: 20vw;
+    height: 2.5vh;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold ; 
+}
