@@ -1,0 +1,55 @@
+html {
+    height: 75%;
+}
+
+body{
+    display: grid;
+    grid-gap: 20px;
+    color: rgb(255, 60, 0);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: 100%;
+}
+
+div{
+    background-color: rgba(243, 181, 99, 0.719);
+    border: 1px solid rgba(255, 136, 0, 0.966);
+    border-radius: 4px;
+    height: 100%;
+}
+#um{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 1;
+}
+#dois{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+#tres{
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+#quatro{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+#cinco{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+#seis{
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
