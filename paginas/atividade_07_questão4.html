@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            height: 70%;
+        }
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 78%;
+            text-align: center;
+            width: 70%;
+            height: 100%;
+            background-image: linear-gradient(to right, #363636, #6b72da);
+        }
+        #titulo {
+            color: rgb(208, 212, 216);
+            text-align: center;
+            font-size: 200%;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .noticias {
+            padding: 10px;
+        }
+
+        
+        @media (max-width: 767px) {
+            .conteiner {
+                display: grid;
+                grid-template-columns: 1fr; 
+            grid-gap: 20px;
+            }
+            
+            .noticia1 {
+                grid-row: auto;
+                grid-column: auto;
+                background-color: rgb(155, 155, 255);
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+            }
+            .noticia2 {
+                grid-row: auto;
+                grid-column: auto; 
+                background-color: rgb(155, 155, 255);
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+            }
+            .noticia3 {
+                grid-row: auto; 
+                grid-column: auto; 
+                background-color: rgb(155, 155, 255);
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+            }
+            .noticia4 {
+                grid-row: auto;
+                grid-column: auto; 
+                background-color: rgb(155, 155, 255);
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+            }
+            .noticia5 {
+                grid-row: auto;
+                grid-column: auto; 
+                background-color: rgb(155, 155, 255);
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+            }
+            .noticia6 {
+                grid-row: auto;
+                grid-column: auto;
+                background-color: rgb(155, 155, 255);
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+            }
+            .noticia7 {
+                grid-row: auto; 
+                grid-column: auto; 
+                background-color: rgb(155, 155, 255);
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+            }
+            
+    a{
+        text-decoration: none;
+        color: black;
+        
+        
+    }
+        }
+
+
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+    }
+    @media (min-width: 767px) {
+
+           .conteiner {
+            display: grid;
+            grid-gap: 20px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            height: 100%;
+        }
+
+    .noticia1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end:3;
+        background-color: rgb(155, 155, 255);
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+       
+    }
+    
+    .noticia2{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        background-color: rgb(155, 155, 255);
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+    .noticia3{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-color: rgb(155, 155, 255);
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+    .noticia4{
+        grid-column-start: 4;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        background-color: rgb(155, 155, 255);
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+    .noticia5{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-color: rgb(155, 155, 255);
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+    .noticia6{
+        grid-column-start: 2;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        background-color: rgb(155, 155, 255);
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+    .noticia7{
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        background-color: rgb(155, 155, 255);
+        border-radius: 10px;
+        transition: transform 0.3s ease;
+    }
+
+    }
+    
+
+    a{
+        text-decoration: none;
+        color: black;
+        
+        
+    }
+    
+    
+    .noticia1:hover{
+        
+         transform: scale(1.1)
+    }
+    .noticia2:hover{
+        
+        transform: scale(1.1)
+   }
+   .noticia3:hover{
+        
+        transform: scale(1.1)
+   }
+   .noticia4:hover{
+        
+        transform: scale(1.1)
+   }
+   .noticia5:hover{
+        
+        transform: scale(1.1)
+   }
+   .noticia6:hover{
+        
+        transform: scale(1.1)
+   }
+   .noticia7:hover{
+        
+        transform: scale(1.1)
+   }
+    </style>
+</head>
+<body>
+    <div id="titulo">noticias</div>
+    <br>
+    <br>
+    <div class="conteiner">
+        <div class="noticia1">
+            <div class="noticias">
+                <a href="https://www.msn.com/pt-br/esportes/campeonato-paulista/palmeiras-empata-garante-ida-%C3%A0-4%C2%AA-semi-seguida-da-libertadores-e-vai-pegar-o-boca-juniors/ar-AA1g13mw" target="_blank">
+          <img  src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1g1clT.img?w=612&h=408&m=6&x=289&y=72&s=38&d=38">
+          <div class="descricao"> 
+            
+              Palmeiras empata, garante ida à 4ª semi seguida da Libertadores e vai pegar o Boca Juniors
+              <br>
+              O Palmeiras promoveu nesta quarta-feira um jogo sonolento e pouco inspirado diante de sua torcida no Allianz Parque. Graças à goleada por 4 a 0 no jogo de ida, a equipe alviverde pôde diminuir seus esforços e, mesmo assim, garantir a classificação para a semifinal da Copa Libertadores ao empatar sem gols com o colombiano Deportivo Pereira. O adversário da próxima fase será o Boca Juniors, de Edinson Cavani, que eliminou o Racing nos pênaltis.
+            </a>
+        </div>
+        </div>
+        </div>
+        <div class="noticia2">
+            <div class="noticias">
+                <a href="https://www.msn.com/pt-br/estilo-de-vida/beleza/fotos-mostram-modelos-pr%C3%A9-prontos-do-iphone-15-e-15-pro-com-novas-cores-e-usb-c/ar-AA1g0oZs?ocid=msedgntp&cvid=60c8cf0d3c8b48c7b82c7eb058ed4906&ei=13" target="_blank">
+          <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1g0iO4.img?w=768&h=512&m=6">
+          <div class="descricao"> 
+            Um novo conjunto de imagens vazadas nesta quarta-feira (30) pelo informante Sonny Dickson mostram as supostas cores do iPhone 15 e do iPhone 15 Pro
+        </a>
+        </div>
+        </div>
+        </div><div class="noticia3">
+            <div class="noticias">
+                <a href="https://www.msn.com/pt-br/estilo-de-vida/moda/fone-waaw-by-alok-com-desconto-na-amazon/ar-AA1b7h3u?ocid=msedgntp&cvid=60c8cf0d3c8b48c7b82c7eb058ed4906&ei=75" target="_blank">
+          <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1dJjHS.img?w=768&h=432&m=6">
+          <div class="descricao"> 
+              Fone WAAW by Alok com desconto na Amazon!
+              O desafio de encontrar um fone de ouvido de qualidade<br>
+              Encontrar um fone de ouvido que ofereça excelente qualidade de som, conforto e praticidade pode ser um desafio. Com tantas opções disponíveis.<br>
+              Conheça o fone de ouvido Bluetooth WAAW by ALOK<br>
+              O fone de ouvido Bluetooth WAAW by ALOK é uma excelente opção para quem busca qualidade e estilo. 
+            </a>
+        </div>
+        </div>
+        </div><div class="noticia4">
+            <div class="noticias">
+                <a href="https://www.msn.com/pt-br/entretenimento/jogos/haja-ssd-tamanho-de-marvel-s-spider-man-2-finalmente-%C3%A9-revelado/ar-AA1g09sr?ocid=msedgntp&cvid=60c8cf0d3c8b48c7b82c7eb058ed4906&ei=67" target="_blank">
+          <img src="https://th.bing.com/th?id=ORMS.4b850627aeed06a420764a4fe5e09cd8&pid=Wdp&w=300&h=156&qlt=90&c=1&rs=1&dpr=1&p=0">
+          <div class="descricao"> 
+              Haja SSD! Tamanho de Marvel's Spider Man 2 finalmente é "revelado"
+            </a>
+        </div>
+        </div>
+        </div><div class="noticia5">
+            <div class="noticias">
+                <a href="https://www.msn.com/pt-br/tv/noticias/netflix-lan%C3%A7a-live-action-de-one-piece-veja-nota-e-dura%C3%A7%C3%A3o-dos-epis%C3%B3dios/ar-AA1g2vrn?ocid=msedgntp&cvid=60c8cf0d3c8b48c7b82c7eb058ed4906&ei=71" target="_blank">
+          <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1g2cIQ.img?w=768&h=512&m=6&x=427&y=107&s=149&d=149">
+          <div class="descricao"> 
+              Netflix lança live-action de One Piece! Veja nota e duração dos episódios
+            </a>
+        </div>
+        </div>
+        </div><div class="noticia6">
+            <div class="noticias"><a href="https://www.msn.com/pt-br/saude/nutricao/caf%C3%A9-e-lim%C3%A3o-ajudam-na-perda-de-peso-descubra-o-que-dizem-os-especialistas/ar-AA1fYX7q?ocid=msedgntp&cvid=60c8cf0d3c8b48c7b82c7eb058ed4906&ei=79" target="_blank">
+                <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1fb7CJ.img?w=768&h=512&m=6">
+                <div class="descricao"> 
+                    Não. Limões ou café não têm qualidades especiais de queima de gordura. O café traz um benefício supressor do apetite semelhante ao do limão em água, porque a água mantém você mais cheio sentindo menos fome. O café também bombeia seu metabolismo com um chute de cafeína.
+                </a>
+        </div>
+        </div>
+        </div><div class="noticia7">
+            <div class="noticias">
+                <a href="https://www.msn.com/pt-br/cinema/noticias/super-mario-bros-wonder-ter%C3%A1-11-personagens-jog%C3%A1veis-veja-trailer-in%C3%A9dito/ar-AA1g2PE2?ocid=msedgntp&cvid=06063ddd973049e3a8445e5a72808dcf&ei=8" target="_blank">
+          <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1g2Pxn.img?w=612&h=408&m=6">
+          <div class="descricao">
+            Super Mario Bros Wonder terá 11 personagens jogáveis
+            </a>
+        </div>
+        </div>
+        </div>
+</body>
+</html>
