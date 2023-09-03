@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: linear-gradient(to right, rgb(177, 177, 177) 50%, #426652 50%);
+            margin: 0;
+        }
+
+  .esq_cima{
+    color: #426652;
+    position: absolute;
+    top: 26px;
+    left: 20%;
+    font-size: 130%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+
+@media (max-width: 767px) {
+   .esq_cima{
+    color: #426652;
+    position: absolute;
+    top: 26px;
+    left: 5%;
+    font-size: 115%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+            }
+     .dir_cima{
+    color: rgb(177, 177, 177);
+    position: absolute;
+    top: 20px;
+    left: 52%;
+    font-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+        }
+
+  .dir_cima{
+    position: absolute;
+    top: 0;
+    right: 20%;
+    font-size: 130%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-spacing: 25px;
+}
+.link_esq{
+    color: rgb(177, 177, 177);
+    text-decoration: none;
+    transition: color 0.3s ease
+    
+}
+
+
+
+.foto{
+    align-items: center;
+    width: 200px;
+    border-radius: 200%;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    text-align: center;
+    flex-direction: column;
+}
+.nome{
+    font-size: 130%;
+    font-weight: bold ; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 14px;
+}
+.descricao{
+    font-size: 110%;
+    font-weight: bold ; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.icones{
+    width: 22px;
+    margin: 7px;
+    transition: transform 0.3s ease;
+}
+.whatsapp{
+    width: 26px;
+    margin: 7px;
+    transition: transform 0.3s ease;
+}
+.instagram{
+    width: 33px;
+    margin: 7px;
+    transition: transform 0.3s ease;
+}
+.icones:hover{
+        
+        transform: scale(1.3)
+   }
+   .instagram:hover{
+        
+        transform: scale(1.3)
+   }
+   .whatsapp:hover{
+        
+        transform: scale(1.3)
+   }
+   .link_esq:hover{
+    color: #e9e9e9
+   }
+   .redes{
+    margin-right: 10px;
+   }
+    </style>
+</head>
+<body>
+
+    <div class="esq_cima">VINÍCIUS NUNES</div>
+
+    <table class="dir_cima">
+        
+ <td><a class="link_esq" href="https://docs.google.com/document/d/1CHJzxl3HjwJkoi3bkBK3hWiaeibW5TPc41a4KqUkvQ4/edit" target="_blank">Sobre</a></td>
+ <td><a class="link_esq" href="https://docs.google.com/document/d/1CHJzxl3HjwJkoi3bkBK3hWiaeibW5TPc41a4KqUkvQ4/edit" target="_blank">Projetos</a></td>
+    </table>
+    <div class="container">
+    <div><img class="foto" src="https://th.bing.com/th/id/OIP.OKJe5GW3hqi5Es1Q9U-oHgHaHa?pid=ImgDet&rs=1"></div>
+    <br>
+    <div class="nome">
+      <span style="color: #426652;">Vínicius</span> <span style="color: rgb(177, 177, 177);">Nunes</span>
+    </div>
+    <div class="descricao">
+        <span style="color: #426652;">Deve</span><span style="color: rgb(177, 177, 177);">loper</span>
+    </div>
+    <div class="redes">
+    <br>
+    <a href="https://www.instagram.com/v.nunesb/" target="_blank"><img class="instagram" src="imagens/OIP-removebg-preview (1).png" alt="instagram"></a><a href="https://api.whatsapp.com/send?phone=5582987084884" target="_blank"><img class="whatsapp" src="imagens/137-1378264_whatsapp-black-color-icon-png-image-free-download-removebg-preview.png" alt="whatsapp"></a></a><a href="https://www.facebook.com/profile.php?id=100027315158385" target="_blank"><img class="icones" src="imagens/26-262815_facebook-black-png-transparent-background-png-download-removebg-preview.png" alt="facebook"></a><a href="https://github.com/vinicius2129" target="_blank"><img class="icones" src="/imagens/R-removebg-preview - Copia.png" alt="github"></a>
+    </div>
+</div>
+</body>
+</html>
