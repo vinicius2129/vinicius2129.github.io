@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     
+        .texto_menor{
+            color: rgba(0, 0, 0, 0.815);
+            font-size: 110%;
+           margin-left: 10%;
+           margin-top: 4%;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .texto_grande{
+            margin-top: 10px;
+            font-size: 150%;
+           margin-left: 10%;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .localizacao{
+           margin-left: 10%;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           color: rgba(0, 0, 0, 0.815);
+           font-size: 110%;
+        }
+        .links{
+            margin-top: 20px;
+            margin-left: 10%;
+        }
+        .contato{
+            transition: color 0.3s ease;
+            color: black;
+            font-size: 103%;
+            margin: 2px;
+            background-color: rgba(32, 32, 32, 0.13);
+            border-radius: 5px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        hr{
+            background-color: rgba(107, 107, 107, 0.288);
+            height: 1px;
+        }
+        .titulo{
+            margin-top: 60px;
+       text-align: center;
+       font-size: 140%;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       text-decoration: underline;
+        }
+       .container{
+
+            margin-top: 60px;
+            display: grid;
+            grid-gap: 30px;
+            grid-template-columns: 1fr  ;
+            grid-template-rows: 1fr 1fr 1fr ;
+            
+       }
+       .titulo_2{
+        font-size: 120%;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        margin-top: 20px;
+        
+       }
+       .titulo_3{
+        font-size: 120%;
+        grid-column-start: 1;
+        grid-row-start: 2;
+        margin-top: 20px;
+       
+       }
+       .titulo_4{
+        font-size: 120%;
+        grid-column-start: 1;
+        grid-row-start: 3;
+        margin-top: 20px;
+       
+       }
+       .descricao_titulo_1{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        margin-top: 20px;
+       
+       }
+       .descricao_titulo_2{
+        grid-column-start: 2;
+        grid-row-start: 2;
+        margin-top: 20px;
+      
+        
+       }
+       .descricao_titulo_3{
+        
+        grid-column-start: 2;
+        grid-row-start: 3;
+        margin-top: 20px;
+       
+       }
+       .center{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+   font-size: 110%;
+    text-align: center;
+    flex-direction: column;
+       }
+       .titulo_5{
+        font-size: 120%;
+        margin-top: 20px;
+        grid-column-start: 1;
+        grid-row-start: 1
+       }
+       .descricao_titulo_4{
+        grid-column-start: 2;
+        grid-row-start: 1;
+        margin-top: 20px;
+       }
+.container2{
+    margin-top: 60px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr  ;
+    grid-template-rows: 1fr 1fr 1fr ;       
+}
+.contato:hover{
+    background-color: rgba(145, 145, 145, 0.13);
+}
+       </style>
+</head>
+<body>
+    <div class="texto_menor">Olá</div>
+    <div class="texto_grande">
+        Meu nome é Vinícius Nunes,<br>
+        Um Developer front-end que<br>
+        adora todas as coisas HTML, CSS e JS
+    </div>
+    <div class="localizacao">Maceió, AL</div>
+    <div class="links">
+     <a class="contato" href="https://github.com/vinicius2129" target="_blank">GitHub</a>
+     <a class="contato" href="mailto:viniciusnunesb29@gmail.com" target="_blank">Email</a>
+     <a class="contato" href="https://www.instagram.com/v.nunesb/" target="_blank">instagram</a>
+    </div>
+    <hr>
+    <div class="titulo">EXPERIÊNCIA</div>
+    <div class="center">
+    <div class="container">
+        <div class="titulo_2">
+            Html & Css<br>
+            Medio
+        </div>
+        <div class="titulo_3">
+            Javascript <br>
+            Medio   
+        </div>
+        <div class="titulo_4">
+            Adobe Photoshop<br>
+            Medio   
+        </div>
+        <div class="descricao_titulo_1">
+            HTML define a estrutura da página web, enquanto CSS controla seu estilo e layout.
+            <br> Eles são fundamentais para criar páginas web visualmente atraentes e bem organizadas.
+        </div>
+        
+        <div class="descricao_titulo_2">
+            JavaScript é uma linguagem de programação usada para tornar as páginas web interativas, permitindo que os <br>
+            desenvolvedores adicionem comportamentos dinâmicos aos elementos HTML e interajam com o usuário.
+        </div>
+        <div class="descricao_titulo_3">
+            O Adobe Photoshop é uma ferramenta de edição de imagens amplamente usada para retocar e
+            <br> criar imagens de alta qualidade.
+        </div>
+    </div>
+        <div class="titulo">EDUCAÇÃO</div>
+        <div class="container2">
+            <div class="titulo_5">
+                IFAL<br>
+                2ª série
+            </div>
+            <div class="descricao_titulo_4">
+                O IFAL é uma instituição de ensino federal em Alagoas, Brasil, fundada em 2008. Faz parte da rede de Institutos 
+                <br>Federais do país e oferece educação profissional e tecnológica em diversas áreas.
+            </div>
+        </div>
+</div>
+    
+</body>
+</html>
