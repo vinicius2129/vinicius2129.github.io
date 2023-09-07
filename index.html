@@ -2,153 +2,148 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        body{
+            background: linear-gradient(to right, rgb(177, 177, 177) 50%, #426652 50%);
+            margin: 0;
+        }
+
+  .esq_cima{
+    color: #426652;
+    position: absolute;
+    top: 26px;
+    left: 20%;
+    font-size: 130%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+
+@media (max-width: 767px) {
+   .esq_cima{
+    color: #426652;
+    position: absolute;
+    top: 26px;
+    left: 5%;
+    font-size: 115%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+            }
+     .dir_cima{
+    color: rgb(177, 177, 177);
+    position: absolute;
+    top: 20px;
+    left: 45%;
+    font-size: 70%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    html{
+            margin: 0%;
+        }
+        }
+
+  .dir_cima{
+    position: absolute;
+    top: 0;
+    right: 20%;
+    font-size: 130%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-spacing: 25px;
+}
+.link_esq{
+    color: rgb(177, 177, 177);
+    text-decoration: none;
+    transition: color 0.3s ease
+    
+}
+
+
+
+.foto{
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    text-align: center;
+    flex-direction: column;
+}
+.nome{
+    font-size: 130%;
+    font-weight: bold ; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 14px;
+}
+.descricao{
+    font-size: 110%;
+    font-weight: bold ; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.icones{
+    width: 22px;
+    margin: 7px;
+    transition: transform 0.3s ease;
+}
+.whatsapp{
+    width: 26px;
+    margin: 7px;
+    transition: transform 0.3s ease;
+}
+.instagram{
+    width: 33px;
+    margin: 7px;
+    transition: transform 0.3s ease;
+}
+.icones:hover{
+        
+        transform: scale(1.3)
+   }
+   .instagram:hover{
+        
+        transform: scale(1.3)
+   }
+   .whatsapp:hover{
+        
+        transform: scale(1.3)
+   }
+   .link_esq:hover{
+    color: #e9e9e9
+   }
+   .redes{
+    margin-right: 10px;
+   }
+    </style>
 </head>
 <body>
-    <title>Curriculo</title>
-<section id="topo">
 
-    <h1>Vinicius Nunes </h1>
-    <h3>Nascimento: <span style="font-size: 13;"> 29/12/2006</h3>
+    <div class="esq_cima">VINÍCIUS NUNES</div>
+
+    <table class="dir_cima">
         
-        <h3>Email: <span style="font-size: 14;">vnb2@aluno.edu.ifal.br</h3>
-            
-            <h3>Telefone: <span style="font-size: 13;">(82) 98708-4884</h3>
-            </section>
-
-<img src="/paginas/imagem/IMG_20230904_004310_206.webp" width="100" >
-<p>
-   olá, sou Vinícius Nunes, 16 anos, cursando Desenvolvimento de Sistemas.
+ <td><a class="link_esq" href="atividade 07_SOBRE.html" target="_blank">Sobre</a></td>
+ <td><a class="link_esq" href="atividade 07_Projetos.html" target="_blank">Projetos</a></td>
+    </table>
+    <div class="container">
+    <div><img class="foto" src="imagem/20230904095446.png"></div>
     <br>
-    gosto muito de programação, busco aprender e enfrentar desafios para 
+    <div class="nome">
+      <span style="color: #426652;">Vínicius</span> <span style="color: rgb(177, 177, 177);">Nunes</span>
+    </div>
+    <div class="descricao">
+        <span style="color: #426652;">Deve</span><span style="color: rgb(177, 177, 177);">loper</span>
+    </div>
+    <div class="redes">
     <br>
-    contribuir em projetos inovadores.
-</p>
-<section id="sumario">
-
-    <h3>Sumário</h3>
-    <hr>
-    <ol style="font-size: 15;">
-        <li><a href="#endereco">Endereço</a></li>
-        
-            <li><a href="#experiencia">Experiencia</a></li>
-        
-            <li><a href="#competencia">Competências</a></li>
-        <li><a href="#Projetos_PWEB">Projetos PWEB</a></li>
-    </section>
-    </ol>
-    <section id="endereco">
-
-        <h3>Endereço</h3>
-        <hr>
-        <dt><span style="font-size: 18;"><strong>Rua</strong></dt></span>
-        <dd>Rua Deputado Admario,400</dd>
-        <dt><span style="font-size: 18;"><strong>Cidade</strong></dt></span>
-        <dd>Maceió,AL</dd>
-        <dt><span style="font-size: 18;"><strong>Bairro</strong></dt></span>
-        <dd>Clima Bom</dd>
-    </dll>
-    <br>
-    <strong> <a href="https://www.google.com.br/maps/place/R.+Izaura+Buarque+Quintiliano,+147+-+Clima+Bom,+Macei%C3%B3+-+AL,+57071-170/@-9.5770049,-35.7772533,19z/data=!3m1!4b1!4m5!3m4!1s0x7014856dbd2e93f:0x8287c1a26cc5dd01!8m2!3d-9.5770062!4d-35.7766096?entry=ttu">localização📍</a></strong>
-    <br>
-</section>
-<br>
-    <a href="#topo">topo</a>
-    <section id="experiencia">
-
-        <h3>
-            Experiencia
-        </h3>
-            <hr>
-            <ul>
-                <li>
-                    <strong>Edição básica de video e fotos</li></strong>
-                    <span style="color: rgba(98, 96, 92, 0.887);">
-                        <span style="font-style: italic;">
-                            (Edições ásicas usando o software Adobe)
-                        </span>
-                    </span>
-                        <li>
-                    <strong>Programação básica em Html, JavaScript e Css</li></strong>
-                    <span style="color: rgba(98, 96, 92, 0.88);"><span style="font-style: italic;">
-                        (Programação em Html, JavaScript e Css usando o software Visual Studio Code)
-                    </span>
-                    </span>
-                        <li>
-                    <strong>cursando o ensino médio</li></strong>
-                    <span style="color: rgba(98, 96, 92, 0.887);"><span style="font-style: italic;">
-                        (cursando o ensino médio junto com o curso técnino de Desenvolvimento de Sistema)
-                    </span>
-                </span>
-                </ul>
-                <a href="#topo">topo</a>
-                <section id="experiencia">
-    </section>
-    <section id="competencia">
-<h3>Competências</h3>
-<hr>
- <ul>
-    <li>Html</li>
-    <li>Css</li>
-    <li>JavaScript</li>
- </ul>
-    </section>
-    <a href="#topo">topo</a>
-
-<section id="Projetos_PWEB">
-        <h3>Projetos PWEB</h3>
-        <hr>
-        <ul>
-    <dt> <strong>atividade 03</strong></dt>
-    <dd><li><a href="./paginas/atividade_03.html" target="_blank">formulário HTML simples</a></li></dd>
-    <br>
-</ul>
-<ol>
-    <dt> <strong>atividade 04</strong></dt>
-    <dd><li><a href="./paginas/atividade_04_questão_A.html" target="_blank">página em html para exibir o conteúdo de um curso</a></li></dd>
-    <br>
-    <dd><li><a href="./paginas/atividade_04_questão_B.html" target="_blank">página com uma imagem, um título de uma música e a letra dessa música</a></li></dd>
-    <br>
-    <dd><li><a href="./paginas/atividade_04_questão_C.html" target="_blank">página para exibir uma tabela com 4 colunas. </a></li></dd>
-    <br>
-    <dd><li><a href="./paginas/atividade_04_questão_D.html" target="_blank">tabela com 2 linhas e 2 colunas,onde em cada célula,contem uma página de notícias</a></li></dd>
-    <br>
-    </ol>
-<ol>  
-    <dt> <strong>atividade 05</strong></dt>
-    <dd><li><a href="./paginas/atividade_05 _ CSS_questão1.html" target="_blank">página de posicionamento de cores usando CSS</a></li></dd>
-    <br>
-    <dd><li><a href="./paginas/atividade_5_questao2.html" target="_blank">cadastro de alunos</a></li></dd>
-    <br>
-    <br>
-</ol>
-    <ol>  
-    <dt> <strong>atividade 06</strong></dt>
-    <dd><li><a href="./paginas/atividade_06 _ CSS_questão1.html" target="_blank">homenagem</a></li></dd>
-    <br>
-    <dd><li><a href="./paginas/atividade_06_CSS_questão2.html" target="_blank">site de pesquisa</a></li></dd>
-    <br>
-        <dd><li><a href="./paginas/atividade_06_CSS_questão3.html" target="_blank">formulário</a></li></dd>
-    <br>
-        
-</ol>     
-    <ol>  
-    <dt> <strong>atividade 7</strong></dt>
-    <dd><li><a href="./paginas/CSS_Atividade 07_Q1.html" target="_blank">Grid Layout</a></li></dd>
-    <br>
-<dd><li><a href="./paginas/CSS_Atividade 07_Q2.html" target="_blank">tabela de times</a></li></dd>
-    <br>
-           <br>
-<dd><li><a href="./paginas/CSS_Atividade 07_Q3.html" target="_blank">página inicial</a></li></dd>
-    <br>
-        <br>
-<dd><li><a href="./paginas/atividade_07_questão4.html" target="_blank">tabela de Notícias</a></li></dd>
-    <br>
-        
-<a href="#topo">topo</a>
-</section>
+    <a href="https://www.instagram.com/v.nunesb/" target="_blank"><img class="instagram" src="imagem/OIP-removebg-preview (1).png" alt="instagram"></a><a href="https://api.whatsapp.com/send?phone=5582987084884" target="_blank"><img class="whatsapp" src="imagem/137-1378264_whatsapp-black-color-icon-png-image-free-download-removebg-preview.png" alt="whatsapp"></a></a><a href="https://www.facebook.com/profile.php?id=100027315158385" target="_blank"><img class="icones" src="imagem/26-262815_facebook-black-png-transparent-background-png-download-removebg-preview.png" alt="facebook"></a><a href="https://github.com/vinicius2129" target="_blank"><img class="icones" src="imagem//R-removebg-preview - Copia.png" alt="github"></a>
+    </div>
+</div>
 </body>
 </html>
