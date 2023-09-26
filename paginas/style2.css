@@ -29,14 +29,12 @@ html{
 }
 .redessociais{
     position: absolute;
-    top: 20%;
+    top: 30%;
     right: 25%;
     width: 22px;
     margin: 7px;
 }
 .facebook{
-        width: 26px;
-    margin: 7px;
     transition: transform 0.3s ease;
 }
 .whatsapp{
@@ -62,7 +60,7 @@ html{
 .horarios{
     position: absolute;
     top: 95%;
-    left: 20%;
+    left: 25%;
 }
 .d-block {
     height: 235px;
@@ -93,22 +91,32 @@ html{
 .funcionamento{
     position: absolute;
     top: 88%;
-    right: 43%;
+    right: 45%;
     font-size: 180%; 
     color: rgb(26, 36, 23);
 }
-.table{
-    position: absolute;
 
-}
-#th{
-   
-}
-#pao{
-    width:20px;
-}
+
 .list-group-item{
     width: 400px;
     display: flex;
     text-align: center;
+}
+.pratos{
+    position: absolute;
+    top: 130%;
+    right: 50%;
+    font-size: 180%; 
+    color: rgb(26, 36, 23);
+}
+.prato_fotos{
+    left: 18%;
+    position: absolute;
+    top: 140%;
+    padding: 20px;
+}
+.fotos{
+    margin: 20px;
+    height: 200px;
+    width: 300px;
 }
