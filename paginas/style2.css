@@ -35,6 +35,8 @@ html{
     margin: 7px;
 }
 .facebook{
+        width: 26px;
+    margin: 7px;
     transition: transform 0.3s ease;
 }
 .whatsapp{
