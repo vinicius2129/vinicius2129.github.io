@@ -6,8 +6,10 @@ function js_add_rows() {
         document.querySelector('#error').innerHTML = 'digite um numero.'
     }
     for (let i = 0; i < input; i++) {
+        if (contador <= 10{
         document.querySelector('#tabela').innerHTML += template.innerHTML = `<td>Row${contador} cell1</td>` + `<td>Row${contador} cell2</td>`;
         contador++
+        }
     }
 }
 filterInt = function (value) {
