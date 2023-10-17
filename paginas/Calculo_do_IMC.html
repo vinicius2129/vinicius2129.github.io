@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="js_atividade_09_Q2.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #titulo{
+            position: relative;
+            left: 3%;
+           font-size: 180%;
+           font-family: Helvetica;
+        }
+        #container{
+            margin: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+        #forms{
+            position: absolute;
+            top: 30%;
+
+            display: grid;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr  1fr 1fr 1fr 1fr 1fr;
+           
+        }
+        #colocar_nome{
+            grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end:1;
+        }
+       #input_nome{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end:1;
+        
+       }
+       #button{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 7;
+        grid-row-end: 8;
+       } 
+      #nome_resultado{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+      }
+      #input_nome_resultado{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
+      }
+      #sobrenome_resultado{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 5;
+        grid-row-end: 5;
+      }
+      #input_sobrenome_resultado{
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 5;
+      }
+      #resultado{
+        grid-column-start: 5;
+        grid-column-end: 3;
+        grid-row-start: 7;
+        grid-row-end: 8;
+        
+      }
+      button{ 
+        position: relative;
+        left: 6%;
+        height: 100%;
+        width: 90%;
+        color: white;
+        border: none;
+        background-color: rgba(64, 68, 77, 0.89);
+      }
+      #resultado{
+        height: 34px;
+        width: 75%;
+        border: none;
+      }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <div id="titulo">Atividade 01</div>
+    <div id="forms">
+            <div id="colocar_nome">Nome:</div>
+            <div id="input_nome"><input type="text" id="nome" required></div>
+            <div id="button"> <button onclick="SaberIMC()">Calcular IMC</button></div>
+            <div id="nome_resultado">Peso:</div>
+            <div id="input_nome_resultado"><input type="number" id="peso" required></div>
+            <div id="sobrenome_resultado">Altura:</div>
+            <div id="input_sobrenome_resultado"><input type="number" id="altura" required></div>
+            <div id="resultado"><input type="text" id="resultado"></div>
+</div>
+</body>
+</html>
