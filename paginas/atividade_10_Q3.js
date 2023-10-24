@@ -3,7 +3,7 @@ function contarVogais() {
     var contador = 0;
     
     for (var i = 0; i < texto.length; i++) {
-        if ('AÀÁÂÃEÈÉÊIÌÍOÒÓÔÕUÙÚÜ aàáâãeéêiíoóôõuúü'.includes(texto[i])) {
+        if ('AÀÁÂÃEÈÉÊIÌÍOÒÓÔÕUÙÚÜaàáâãeéêiíoóôõuúü'.includes(texto[i])) {
             contador++;
         }
     }
